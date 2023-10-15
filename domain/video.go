@@ -14,7 +14,7 @@ type Video struct {
 }
 
 func init() {
-	govalidator.SetFieldsRequiredByDefault( value:true)
+	govalidator.SetFieldsRequiredByDefault(true)
 }
 
 func NewVideo() *Video {
